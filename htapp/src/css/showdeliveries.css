@@ -1,0 +1,70 @@
+/*css za notifikacije*/
+.deliveries-list {
+    margin: 100px auto; /* Centriranje */
+    width: 80%; /* Širina containera */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Bijela pozadina */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sjenčanje */
+}
+h2{
+    color: rgb(255, 0, 132);
+    margin-bottom: 20px;
+}
+  
+.delivery-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.delivery-card {
+    margin-bottom: 20px; /* Razmak između notifikacija */
+    padding: 20px;
+    background-color: white; /* Bijela pozadina */
+    border-radius: 10px; /* Zaobljeni rubovi */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Blagi sjaj */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.delivery-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+  
+.delivery-card p {
+    margin: 0;
+}
+
+.delete-button, .edit-button {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 132); 
+    color: white;
+    border: none;
+    border-radius: 5px; /* Zaobljeni rubovi */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Osjenčani rubovi */
+    cursor: pointer;
+}
+
+.delete-button:hover, .edit-button:hover {
+    background-color: rgb(210, 4, 110); 
+}
+.buttons button{
+   margin-right: 5px;
+}
+
+.pagination button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: linear-gradient(to right, rgb(255, 0, 132), rgba(252, 24, 142, 0.759));
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Dodavanje sjene */
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #7b2189; /* Promjena boje prilikom prelaska mišem */
+}

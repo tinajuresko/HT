@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.volume {
+    --line: rgb(255, 0, 132);
+    --line-width: 5px;
+    position: fixed;  
+    top: 20px;        
+    right: 40px;     
+    cursor: pointer;
+    padding-right: 48px;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.volume svg {
+    display: block;
+    fill: none;
+    stroke: var(--line);
+    stroke-width: var(--line-width);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.volume svg:not(.shape) {
+    --scale: 1;
+    --top: 0;
+    --left: 50px;
+    --height: 88px;
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 20px;
+    height: var(--height);
+    transform: scaleY(var(--scale));
+}
+
+.volume svg.shape {
+    width: 64px;
+    height: 88px;
+}
+
+.volume svg.second,
+.volume svg.third {
+    --top: 14px;
+    --height: 60px;
+}
+
+.volume svg.second {
+    --left: 72px;
+    --scale: 0.84;
+}
+
+.volume svg.third {
+    --left: 92px;
+    --scale: 1.16;
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+.dribbble {
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+}
+
+.dribbble img {
+    display: block;
+    height: 28px;
+}

@@ -1,0 +1,49 @@
+{
+  "shipments": [
+    {
+      "id": "1",
+      "title": "Shipment 1.11",
+      "date": "2024-05-27",
+      "time": "20:37",
+      "orderId": "order123",
+      "customerId": "customer123",
+      "status": "pending"
+    },
+    {
+      "id": "2",
+      "title": "Shipment 2",
+      "date": "2024-05-22",
+      "time": "11:00 AM",
+      "orderId": "order456",
+      "customerId": "customer456",
+      "status": "delivered"
+    },
+    {
+      "id": "3",
+      "title": "Shipment 3",
+      "date": "2024-05-23",
+      "time": "12:00 PM",
+      "orderId": "order789",
+      "customerId": "customer789",
+      "status": "in transit"
+    },
+    {
+      "id": "716a",
+      "title": "Shipment4",
+      "date": "2024-05-24",
+      "time": "12:50",
+      "status": "Pending",
+      "orderId": "order1011",
+      "customerId": "customer1011"
+    },
+    {
+      "id": "c8fe",
+      "title": "Shipment6",
+      "date": "2024-06-03",
+      "time": "12:00",
+      "status": "In transit",
+      "orderId": "order33",
+      "customerId": "customer33"
+    }
+  ]
+}
